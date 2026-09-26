@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+
+# Generated outputs (figures and intermediate CSVs produced by the pipeline)
+*.png
+train.csv
+augmented_dataset.csv
+final_augmented_dataset.csv
+joint_constraint_table.csv
+constraint_table.csv
+numeric_feature_final_domain.csv
+perturbation_log.csv
+sample_contribution_ds_filtered.csv
+sample_feature_enhancement_regulation_filtered.csv
+feature_importance_shap.csv
+aug_*.csv
+*_metrics.csv
+模型性能对比结果.csv
